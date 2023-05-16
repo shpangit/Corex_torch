@@ -2,6 +2,8 @@
 
 CorEx implementation with the S&P500 example.  
 
+Tested on python 3.9.0
+
 It is a re-implementation of https://github.com/gregversteeg/CorEx.  
 The references are : 
 
@@ -19,5 +21,6 @@ The folder is organised with following files and folder:
 - corex_visualization.py: plotly based tools to show results in form of graph.
 - data: folder containing the dataset of S&P500 components.
 - Corex example on SP500.ipynb: Jupyter notebook with an example of using CorEx for clustering the assets. 
+- requirements.txt: list of dependecy for pip installation
 
 *corex.py* and *corex_torch.py* have same structure.  
