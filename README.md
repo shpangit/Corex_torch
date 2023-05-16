@@ -14,8 +14,10 @@ Greg Ver Steeg and Aram Galstyan, AISTATS 2015, http://arxiv.org/abs/1410.7404
 
 The folder is organised with following files and folder:
 
-- corex.py: original numpy code for CorEx algorithm
+- corex.py: original numpy code for CorEx algorithm from https://github.com/gregversteeg/CorEx.  
 - corex_torch.py: CorEx algorithm with torch implementation.
 - corex_visualization.py: plotly based tools to show results in form of graph.
 - data: folder containing the dataset of S&P500 components.
 - Corex example on SP500.ipynb: Jupyter notebook with an example of using CorEx for clustering the assets. 
+
+*corex.py* and *corex_torch.py* have same structure.  
